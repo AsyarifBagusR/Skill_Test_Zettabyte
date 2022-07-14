@@ -1,0 +1,107 @@
+body {
+  background: gainsboro;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.flex-avatar {
+  display: flex;
+  justify-content: start;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.fa {
+  margin-left: 20px;
+}
+.flex-end {
+  display: flex;
+  font-size: 30px;
+
+  padding-top: 20px;
+
+  justify-content: flex-end;
+}
+.flex-start {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+.flexbox .flex-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.flexbox .flex-card-listitem {
+  display: flex;
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+.flexbox .flex-card {
+  display: flex;
+  flex-direction: column;
+}
+.flex-card-list li {
+  width: 400px;
+  margin: 0.55em;
+  height: 100%;
+}
+.flexbox .flex-card-content {
+  display: flex;
+  flex: 1 0 auto;
+  flex-direction: column;
+  margin: 0;
+}
+.flexbox .flex-card-content p {
+  flex: 1 0 auto;
+  margin-top: 5;
+  margin-bottom: 9;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.flex-card-button {
+  text-align: center;
+  text-decoration: none;
+  color: rgb(42, 189, 247);
+  margin-right: 10px;
+  border-radius: 10px;
+  width: auto;
+  font-weight: 900;
+}
+.flex-card-button:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.flex-card-image img {
+  width: 400px;
+  height: 250px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.flex-card-avatar img {
+  width: 60px;
+  height: 60px;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.flex-card-heading {
+  margin: 0;
+  margin-top: 20;
+  color: #202124;
+}
+
+.flex-card-heading2 {
+  margin: 0;
+  margin-top: 20;
+  color: #8e98bb;
+}
